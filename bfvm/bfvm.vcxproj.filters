@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="brainfuck_vm.cpp" />
+    <ClCompile Include="brainfuck.cpp" />
+    <ClCompile Include="brainfuck_compiler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="brainfuck_instructions.h" />
+    <ClInclude Include="brainfuck_vm.h" />
+    <ClInclude Include="brainfuck_compiler.h" />
+  </ItemGroup>
+</Project>
